@@ -28,4 +28,9 @@ public class EmployeeData {
 		this.employeePayrollDTO = employeePayrollDTO;
 	}
 
+	@Override
+	public String toString() {
+		return "EmployeeData [employeeId=" + employeeId + ", employeePayrollDTO=" + employeePayrollDTO + "]";
+	}
+
 }
